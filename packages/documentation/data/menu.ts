@@ -21,6 +21,7 @@ import {
 	KtLine,
 	KtModal,
 	KtNavbar,
+	KtNotificationCenter,
 	KtPagination,
 	KtPopover,
 	KtStandardTable,
@@ -151,6 +152,7 @@ export const menu: Array<Section> = [
 			{
 				icon: Yoco.Icon.DASHBOARD,
 				pages: [
+					makeComponentMenuItem(KtNotificationCenter),
 					makeComponentMenuItem(KtAccordion),
 					makeComponentMenuItem(KtAvatar),
 					makeComponentMenuItem(KtBanner),

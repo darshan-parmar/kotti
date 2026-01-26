@@ -1,3 +1,4 @@
+import vikeVuePinia from 'vike-vue-pinia/config'
 import vikeVue from 'vike-vue/config'
 import type { Config } from 'vike/types'
 
@@ -12,7 +13,7 @@ export default {
 
 	// https://vike.dev/head-tags
 	description: '3YOURMIND’s Vue UI Framework & Design System ',
-	extends: [vikeVue],
+	extends: [vikeVue, vikeVuePinia],
 	prerender: true,
 	title: 'Kotti Design System',
 } satisfies Config

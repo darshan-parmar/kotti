@@ -10,15 +10,17 @@
 		"dedent": "^1.7.0",
 		"lodash": "4.x",
 		"markdown-it": "^14.1.0",
+		"pinia": "^3.0.4",
 		"shiki": "^3.14.0",
 		"unplugin-vue-markdown": "^29.2.0",
 		"vike-vue": "^0.9.4",
+		"vike-vue-pinia": "^0.2.6",
 		"vue": "3.5.25"
 	},
 	"devDependencies": {
 		"@shikijs/markdown-it": "^3.14.0",
 		"typescript": "^5.6.2",
-		"vike": "^0.4.244",
+		"vike": "^0.4.249",
 		"vite": "^7.1.12"
 	},
 	"name": "@3yourmind/documentation",
