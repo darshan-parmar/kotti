@@ -11,6 +11,7 @@
 		"@tanstack/table-core": "^8.21.3",
 		"@tanstack/vue-table": "^8.21.3",
 		"@vuepic/vue-datepicker": "^11.0.3",
+		"@vueuse/core": "^14.1.0",
 		"big.js": "^7.0.1",
 		"classnames": "^2.5.1",
 		"core-js": "3.47.0",
@@ -20,6 +21,7 @@
 		"lodash": "4.x",
 		"nanoid": "^5.1.5",
 		"normalize.css": "^8.0.1",
+		"pinia": "^3.0.4",
 		"tippy.js": "6.x",
 		"zod": "3.22.5"
 	},

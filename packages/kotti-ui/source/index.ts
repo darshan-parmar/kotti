@@ -87,22 +87,23 @@ export * from './kotti-modal'
 import { KtNavbar } from './kotti-navbar'
 export * from './kotti-navbar'
 import { KtPagination } from './kotti-pagination'
-export * from './kotti-pagination'
+export * from './kotti-notification-center'
 import { KtPopover } from './kotti-popover'
-export * from './kotti-popover'
+export * from './kotti-pagination'
 import { KtRow } from './kotti-row'
-export * from './kotti-row'
+export * from './kotti-popover'
 import { KtStandardTable, KtTable } from './kotti-table'
-export * from './kotti-table'
+export * from './kotti-row'
 import { KtTag } from './kotti-tag'
-export * from './kotti-tag'
+export * from './kotti-table'
 import { KtToast, KtToaster } from './kotti-toaster'
-export * from './kotti-toaster'
+export * from './kotti-tag'
 import { KtUserMenu } from './kotti-user-menu'
-export * from './kotti-user-menu'
+export * from './kotti-toaster'
 import { KtValueLabel } from './kotti-value-label'
+export * from './kotti-user-menu'
+import { KtNotificationCenter } from './kotti-notification-center'
 export * from './kotti-value-label'
-
 export * from './types'
 export * from './utilities/color-scheme'
 
@@ -153,6 +154,7 @@ export default {
 			KtLine,
 			KtModal,
 			KtNavbar,
+			KtNotificationCenter,
 			KtPagination,
 			KtPopover,
 			KtRow,
