@@ -45,13 +45,14 @@
 	<CodePreview code="npm install pinia" language="bash" />
 
 	<p>
-		<span>Note on Architecture:</span> While currently dependent on `Pinia`, the
-		component is designed using a "Logic-Heavy Composable" pattern. This makes
-		the system future-proof; the underlying state management can be swapped for
-		other `stores or native reactive objects` with minimal changes.
+		<span>Note on Architecture:</span> While currently dependent on
+		<span>Pinia</span>, the component is designed using a head-less, logic-heavy
+		Composable pattern. This makes the system future-proof. The underlying state
+		management can be easily swapped for other `stores or native reactive
+		objects` with minimal changes.
 	</p>
 
-	<h3>2. Basic Installation</h3>
+	<h3>2. Basic Usage</h3>
 	<p>
 		Import the main component and place it in your top-level layout (e.g.,
 		`App.vue`).
@@ -75,8 +76,8 @@
 
 	<h3>Action Utilities</h3>
 	<p>
-		Use these to trigger notifications from anywhere in your app (API handlers,
-		form submissions, etc.).
+		Use <span>notify</span> method to trigger notifications from anywhere in
+		your app.
 	</p>
 
 	<CodePreview
@@ -97,8 +98,9 @@
 
 	<h3>UI Utilities</h3>
 	<p>
-		Use these to control the drawer state or access reactive data for your
-		custom headers/navbars.
+		Use these utilities to control the notification center state or access
+		reactive data.
+		<a href="#the-composable">list of all utilities</a> exposed by composable.
 	</p>
 	<CodePreview
 		code="
@@ -116,8 +118,9 @@
 		LLMs to summarize today's alerts into a single concise insight.
 	</p>
 	<p>
-		To enable this feature: Pass the <span>aiSummary</span> prop with your
-		configuration. If this prop is omitted, the AI Insight card will not render.
+		To enable this feature, include the <span>aiSummary</span> prop with your
+		configuration. The AI Summary is disabled by default if this prop is
+		omitted.
 	</p>
 
 	<CodePreview
@@ -134,7 +137,7 @@
 		language="vue-html"
 	/>
 
-	<h2>`useNotifications` - The Main Composable</h2>
+	<h2 id="the-composable">`useNotifications` - The Main Composable</h2>
 	<KtLine />
 	<p>
 		`useNotifications` provides all the utilities you need. Here is the
@@ -382,6 +385,5 @@ span {
 	background: rgba(99, 179, 237, 0.1);
 	padding: 2px 6px;
 	border-radius: 4px;
-	margin-right: 2px;
 }
 </style>
