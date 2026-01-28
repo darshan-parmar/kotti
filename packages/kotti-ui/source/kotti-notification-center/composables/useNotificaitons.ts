@@ -29,7 +29,7 @@ export const useNotifications = () => {
 				return matchesSearch && matchesUnread && matchesType && matchesOrigin
 			})
 
-			return [...filtered].sort((a, b) => {
+			return filtered.sort((a, b) => {
 				const timeA = new Date(a.timestamp).getTime()
 				const timeB = new Date(b.timestamp).getTime()
 				return filters.value.isNewestFirst ? timeB - timeA : timeA - timeB

@@ -352,7 +352,7 @@ export default defineComponent({
 				type: Kotti.NotificationCenter.Type.INFO,
 			})
 			success({
-				text: 'Notifications added!',
+				text: 'Notification added!',
 			})
 		}
 

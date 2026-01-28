@@ -121,7 +121,7 @@ export default defineComponent({
 	}
 
 	&.is-unread {
-		background: #1a1d23;
+		background: var(--slate-90);
 		.title {
 			color: #ffffff;
 			font-weight: 700;

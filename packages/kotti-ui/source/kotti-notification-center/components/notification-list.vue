@@ -77,7 +77,7 @@ export default defineComponent({
 			{ deep: true },
 		)
 
-		const moveFocus = (direction: 'next' | 'prev') => {
+		const moveFocus = (direction: 'next' | 'prev'): void => {
 			const active = document.activeElement as HTMLElement
 			const target =
 				direction === 'next'
